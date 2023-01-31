@@ -1,4 +1,4 @@
-# Webfejéesztés - 9.b
+# Webfejlesztés - 9.b
 
 1. HTML alapok
 
