@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <style>
         table,
-        td {
+        td,
+        th {
             border: 1px solid black;
             border-collapse: collapse;
             text-align: center;
         }
 
-        td {
+        td,
+        th {
             padding: 10px;
         }
     </style>
@@ -54,27 +56,89 @@
             <td>Dániel</td>
             <td>Diána</td>
         </tr>
-        
+
     </table>
     <hr>
     <table>
-<tr>
-    <th>osztály</th>
-    <th>Név</th>
-</tr>
-<tr>
-    <td>9b</td>
-<td>Kássa Máté</td>
-</tr>
-<tr>
-    <td>9b</td>
-    <td>Dudás</td>
-</tr>
-<tr>
-    <td>9c</td>
-    <td>Fülep</td>
-    
-</tr>
+        <tr>
+            <th>Osztály</th>
+            <th>Név</th>
+        </tr>
+        <tr>
+            <td rowspan="4">9b</td>
+            <td>Kássa Máté</td>
+        </tr>
+        <tr>
+
+            <td>Dudás-Vig Zsolt</td>
+        </tr>
+        <tr>
+
+            <td>Lédeczi Zsófia</td>
+        </tr>
+        <tr>
+            <td>Szűcs Csaba</td>
+        </tr>
+        <tr>
+            <td rowspan="2">9c</td>
+            <td>Tóth Kata</td>
+        </tr>
+        <tr>
+            <!-- <td>9c</td> -->
+            <td>Fülep Fanni</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th>Termék</th>
+            <th>Egységár</th>
+            <th>Mennyiség</th>
+            <th>Fizetendő</th>
+        </tr>
+        <tr>
+            <td>Sajt</td>
+            <td>1999</td>
+            <td>1</td>
+            <td>1999</td>
+        </tr>
+        <tr>
+            <td>Milka</td>
+            <td>749</td>
+            <td>3</td>
+            <td>2247</td>
+        </tr>
+        <tr>
+            <td>Alma</td>
+            <td>178</td>
+            <td>10</td>
+            <td>1780</td>
+        </tr>
+        <tr>
+            <td colspan="3">Összesen</td>
+            <td>6026</td>
+        </tr>
+
+
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <td colspan="3">A</td>
+
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+        </tr>
     </table>
 </body>
 
