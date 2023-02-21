@@ -1,0 +1,7 @@
+/* CSS komment */
+p {
+    color: green;
+}
+body p span{
+    color: blueviolet;
+}
