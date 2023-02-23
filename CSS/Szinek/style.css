@@ -3,5 +3,21 @@ p {
     color: green;
 }
 body p span{
-    color: blueviolet;
+    color: blue;
+}
+#modern{
+    color: cyan;
+}
+.golyo{
+    color: black;
+}
+body{
+    background-color:bisque;
+}
+p{
+    background-color:white;
+}
+/* > = közvetlen leszármazott */
+body>span{
+    background-color:greenyellow;
 }
