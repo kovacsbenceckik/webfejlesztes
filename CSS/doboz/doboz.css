@@ -1,13 +1,25 @@
 /* body{
     background-color:red;
 } */
-#piros{
+#piros {
     background-color: red;
-    width:150px;
-height:300px;
+    width: 150px;
+    /* height: 300px; */
 }
-#kék{
-    background-color:blue;
-    width:50%;
-height:50%;
+
+#kék {
+    background-color: blue;
+    width: 75%;
+    /* height: 50%; */
+}
+
+#felso_doboz {
+    background-color: lightgray;
+    width: 50%;
+}
+
+#magenta{
+    background-color: magenta;
+    width: 75vw;
+    /* vw=view width */
 }
