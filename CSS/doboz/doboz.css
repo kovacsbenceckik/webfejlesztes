@@ -13,13 +13,63 @@
     /* height: 50%; */
 }
 
-#felso_doboz {
+.felso_doboz~div {
+    height: 80px;
+    width: 70%;
+}
+
+.felso_doboz {
     background-color: lightgray;
     width: 50%;
 }
 
-#magenta{
+
+#magenta {
     background-color: magenta;
     width: 75vw;
     /* vw=view width */
+}
+
+#Zöld {
+
+    background-color: green;
+    height: 100px;
+}
+
+#Lila {
+    background-color: purple;
+    height: 10vh;
+}
+
+/* view height= vh */
+#szegely {
+    background-color: lightcoral;
+    /* solid, dashed, dotted, double */
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: blue; */
+    border: 2px solid blue;
+}
+
+#vegyes {
+    background-color: aqua;
+    border-right:3px dashed red ;
+    border-bottom: 2px dotted green;
+    margin-bottom: 50px;
+}
+
+/* ~: adott elem kesobbi testverei */
+#kulsomargo{
+    background-color: palevioletred;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#kulso_div{
+    background-color: red;
+}
+
+#belso_div{
+    background-color: lightblue;
+margin-left: 20px;
+margin-top: 30px;
 }
