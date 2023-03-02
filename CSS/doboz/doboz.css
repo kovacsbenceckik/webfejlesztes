@@ -53,23 +53,51 @@
 
 #vegyes {
     background-color: aqua;
-    border-right:3px dashed red ;
+    border-right: 3px dashed red;
     border-bottom: 2px dotted green;
     margin-bottom: 50px;
 }
 
 /* ~: adott elem kesobbi testverei */
-#kulsomargo{
+#kulsomargo {
     background-color: palevioletred;
     margin-top: 10px;
     margin-left: 30px;
 }
-#kulso_div{
+
+#kulso_div {
     background-color: red;
 }
 
-#belso_div{
+#belso_div {
     background-color: lightblue;
-margin-left: 20px;
-margin-top: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#kozepre {
+    background-color: yellow;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+}
+
+#belsomargo{
+    background-color: lightgreen;
+    padding: 20px;
+    /* padding = belső margó*/
+}
+
+#vegyes_belso{
+    background-color: aqua;
+    height: auto;
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px; */
+    /* padding: 20px 40px 60px 80px; */
+    /* padding: 20px 60px; */
+    padding: 20px 40px 80px;
 }
