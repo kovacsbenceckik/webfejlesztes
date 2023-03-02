@@ -1,0 +1,12 @@
+div{
+    background-color: lightblue;
+    height: 40px;
+    width: 50%;
+}
+
+#szegely{
+    border: 2px solid red;
+    width: calc(50% - 44px);
+    padding: 20px;
+
+}
