@@ -1,0 +1,33 @@
+img{
+    width: 30%;
+    border:2px dotted brown;
+    margin: auto;
+    display: block;
+}
+
+p{
+    background-color: yellow;
+    width: 68%;
+    margin: 10px auto;
+}
+
+div{
+    background-color: lightblue;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.egysoros{
+    /*inline:
+     1. egymas mellett jelennek meg
+     2. csak akkora helyet foglalnak el amennyi muszaj*/
+display: inline;
+}
+
+.tobbsoros{
+    /* block:
+    1. Alapbol teljesen kitolti
+    2. egymas alatt jelennek meg */
+    display: block;
+}
