@@ -5,6 +5,8 @@ img{
     display: block;
 }
 
+/* Inline-block: img */
+/* kepek kozepre igazitasa */
 p{
     background-color: yellow;
     width: 68%;
@@ -31,3 +33,18 @@ display: inline;
     2. egymas alatt jelennek meg */
     display: block;
 }
+
+/* 
+inline-block: 
+1. egy sorba kerul (egymast koveto elemek
+2. allithato a merete
+ */
+
+ .vegyes{
+    display: inline-block;
+    display: table;
+ }
+
+ #nincs{
+    display: none;
+ }
