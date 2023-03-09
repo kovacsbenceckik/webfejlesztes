@@ -14,3 +14,27 @@ h1{
     width: 40%;
     background-color: lightblue;
 }
+
+#labdajatek{
+    color: blue;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 8px;
+    /* rem: root ephemeral unit */
+    /* root == html elem */
+}
+
+html{
+    font-size: 50px;
+}
+
+#usa{
+    font-variant: small-caps;
+}
+
+#ifa{
+    color: brown;
+    font-family: sans-serif;
+}
