@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(0, 128, 0, 30%);
+    cursor: wait;
+    animation-timing-function: auto;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: rgba(0, 128, 0, 30%);}
+  to {background-color: white;}
+}
+
+#fenti{
+    background-color: lightblue;
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    display: block;
+    box-shadow: 5px 5px rgba(0, 0, 200, 100%);
+}
+
+#lenti{
+    background-color: lightblue;
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    display: block;
+    box-shadow: 0px 0px 8px 5px orange;
+}
+
+#konyvek{
+    width: 30%;
+    float: right;
+}
+
+p{
+    text-shadow: 0.5px 0.5px gray;
+}
+
+ul{
+    background-color: lightcoral;
+    list-style-type:"Fekete";
+}
+
+li{
+    background-color: lightblue;
+    text-indent: 15px;
+    margin-bottom: 10px;
+}
+
+a{
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    padding: 20px 30px;
+    border: 1.5px solid black;
+    cursor:wait;
+}
