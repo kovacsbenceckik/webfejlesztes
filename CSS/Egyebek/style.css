@@ -1,13 +1,34 @@
 body{
     background-color: rgba(0, 128, 0, 30%);
-    cursor: wait;
-    animation-timing-function: auto;
-    animation: mymove 5s infinite;
+    cursor: crosshair;
+    -webkit-animation: pulsate 20s linear infinite;
+    -moz-animation: pulsate 20s linear infinite;
+    animation: pulsate 20s linear infinite;
 }
 
-@keyframes mymove {
-  from {background-color: rgba(0, 128, 0, 30%);}
-  to {background-color: white;}
+@-webkit-keyframes pulsate {
+    0% {background: black}
+    20% {background: red}
+    40% {background: blue}
+    60% {background: orange}
+    80% {background: green}
+    100% {background: black}
+}
+@-moz-keyframes pulsate {
+    0% {background: black}
+    20% {background: red}
+    40% {background: blue}
+    60% {background: orange}
+    80% {background: green}
+    100% {background: black}
+}
+@keyframes pulsate {
+    0% {background: black}
+    20% {background: red}
+    40% {background: blue}
+    60% {background: orange}
+    80% {background: green}
+    100% {background: black}
 }
 
 #fenti{
@@ -54,11 +75,36 @@ li{
 a{
     background-color: yellow;
     text-decoration: none;
-    color: black;
     display: block;
     margin: auto;
+    color: black;
     width: fit-content;
     padding: 20px 30px;
     border: 1.5px solid black;
     cursor:wait;
+    border-radius: 10px;
+}
+
+
+
+table, td,th {
+        border: 1px solid black;
+        border-radius: 5px;
+        border-collapse: collapse;
+        text-align: center;
+        background-color: white;
+    }
+    td,
+    th {
+        padding: 15px;
+    }
+table{
+    display: inline-block;
+    
+}
+th:hover{
+    background-color: aqua;
+}
+td:hover{
+    background-color: aqua;
 }
