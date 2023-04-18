@@ -104,6 +104,7 @@ nav a {
     text-decoration: none;
     width: calc(100% / 3);
     box-sizing: border-box;
+    font-size: 5vw;
 }
 
 nav a:hover{
@@ -138,7 +139,7 @@ position: fixed;
 text-align: center;
 bottom: 2%;
 right: -17vw;
-border-radius: 15px;
+border-radius: 20px;
 text-decoration: none;
 }
 
@@ -157,3 +158,24 @@ transition: 1s;
 /* 
     Vissza (nincs rajta az "osztaly"): 1 másodperc
 */
+
+@media screen and (max-width: 630px) {
+    aside{
+        float: none;
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    nav a {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+    aside{
+        float: right;
+    }
+}
