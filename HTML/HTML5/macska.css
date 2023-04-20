@@ -179,3 +179,21 @@ transition: 1s;
         float: right;
     }
 }
+
+@media print {
+    nav {
+        display: none;
+    }
+
+    article {
+        border: none;
+    }
+
+    body{
+        font-size: 4.2em;
+    }
+
+    #tetejere {
+        display: none;
+    }
+}
