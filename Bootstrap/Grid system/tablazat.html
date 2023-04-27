@@ -9,40 +9,82 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+
+        .zoldhatter {
+            background-color: lightgreen;
+        }
     </style>
     
     <title>Viragok</title>
 </head>
-<body class="w-75 m-auto ">
+<body class="w-75 m-auto border border-success p-2 text-center">
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <img src="images/gyongyvirag.jpg" alt="gyongyvirag" class="img-fluid">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="images/gyongyvirag.jpg" target="_blank">
+                <img src="images/gyongyvirag.jpg" alt="gyongyvirag" class="img-thumbnail">
+                </a>
                 <p class="mb-0">Gyöngyvirág</p>
             </div>
-            <div class="col">
-                <img src="images/ibolya.jpg" alt="ibolya" class="img-fluid">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="images/ibolya.jpg" target="_blank">
+                <img src="images/ibolya.jpg" alt="ibolya" class="img-thumbnail">
+                </a>
                 <p class="mb-0">Ibolya</p>
             </div>
-            <div class="col">
-                <img src="images/narcisz.jpg" alt="narcisz" class="img-fluid">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="images/narcisz.jpg" target="_blank">
+                <img src="images/narcisz.jpg" alt="narcisz" class="img-thumbnail">
+                </a>
                 <p class="mb-0">Nárcisz</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <img src="images/nefelejcs.jpg" alt="nefelejcs" class="img-fluid">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="images/nefelejcs.jpg" target="_blank">
+                <img src="images/nefelejcs.jpg" alt="nefelejcs" class="img-thumbnail">
+                 </a>
                 <p class="mb-0">Nefelejcs</p>
             </div>
-            <div class="col">
-                <img src="images/szazszorszep.jpg" alt="szazszorszep" class="img-fluid">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="images/szazszorszep.jpg" target="_blank">
+                <img src="images/szazszorszep.jpg" alt="szazszorszep" class="img-thumbnail">
+                </a>
                 <p class="mb-0">Százszorszép</p>
             </div>
-            <div class="col">
-                <img src="images/tulipan.jpg" alt="tulipan" class="img-fluid">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="images/tulipan.jpg" target="_blank">
+                <img src="images/tulipan.jpg" alt="tulipan" class="img-thumbnail">
+                </a>
                 <p class="mb-0">Tulipán</p>
             </div>
         </div>
     </div>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/tulipan.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/narcisz.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/nefelejcs.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <button class="btn btn-dark " type="button" onclick="hatter()">Háttér</button>
+    <script>
+        function hatter() {
+            let b = document.querySelector("body")
+            b.classList.toggle("zoldhatter")
+        }
+    </script>
 </body>
 </html>
